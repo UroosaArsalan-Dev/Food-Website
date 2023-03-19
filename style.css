@@ -1,0 +1,127 @@
+body{
+  font-family: 'Righteous', cursive;
+}
+.navbar{
+    background-color:#FFC107 !important;
+}
+.navbar-brand{
+   font-weight: bold;
+}
+.nav-link{
+    font-weight: bold !important;
+}
+  .dropdown-menu :hover{
+    background-color: #FFC107 !important;
+  }
+  .fa-user-circle-o, .fa-shopping-cart{
+    font-size: 1.5rem;
+    margin: 0.5rem;
+  }
+  .fa-sign-in, .fa-cutlery, .fa-truck{
+    font-size: 40px !important;
+    margin-right: 15px;
+    
+  }
+  .card1, .card2, .card3{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    margin-top: 10px;
+    background-color: #FFC107;
+    box-shadow: 2px 4px 5px rgb(15, 15, 15);
+    justify-content: center;
+    align-items: center;
+  }
+  .maincard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ }
+  .ourmenu{
+    margin-top: 50px;
+  }
+  .card{
+    width: 250px;
+    height: auto;
+    margin-bottom: 5px;
+  }
+  .btn-primary{
+    width: 100%;
+    background-color: #FFC107;
+    color: black;
+  }
+  .btn-primary:hover{
+    background-color:#FFC107;
+    color: white; 
+  }
+  .card-text, .card-title{
+    text-align: center;
+  }
+.heading{
+  text-align: center;
+  margin: 30px;
+  font-weight: bold;
+  color: white;
+}
+.heading > h1{
+  text-shadow: 3px 4px 5px black;
+}
+.footer {
+ /* background-color: #FFC107; */
+ height: 10vh;
+}
+.footer::before{
+ content:"";
+ position: absolute;
+ background: url('bg/SpiceHorizon_Footer-Image.jpg') no-repeat center center/cover;
+ width: 98.5vw;
+ height: 25vh;
+ z-index: -1;
+ opacity: 0.5px;
+}
+.footer h6{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 50px;
+  font-size: large;
+  color: rgb(3, 3, 3);
+}
+.iconscontainer{
+  display: flex;
+  flex-direction: row;
+  margin-top: -50px;
+  justify-content: center;
+  align-items: center;
+}
+.fa-twitter-square, .fa-facebook-square, .fa-linkedin-square, .fa-google-plus-square{
+  font-size: 1.9rem;
+  padding: 15px;
+}
+hr{
+  position: absolute;
+  margin-left: 400px;
+  width: 50%;
+  color: black;
+  opacity: 100%;
+}
+@media screen and (max-width: 1000px) {
+  hr {
+    margin-left: 133px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .card {
+    width: 400px;
+    height: 500px;
+    margin-top: 50px;
+ }
+ .footer {
+  margin-top: -50px;
+ }
+ hr{
+  margin-left: 100px;
+ }
+}
